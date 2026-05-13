@@ -1,4 +1,3 @@
-import { Query } from "pg"
 import { Campaign, campaigns } from "../models/campaign.model"
 import { AppError } from "../utils/app-error"
 import { prisma } from "../utils/prisma"
