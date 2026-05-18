@@ -9,8 +9,6 @@ import { swaggerSpec } from "./docs/swagger"
 import { authMiddleware } from "./middlewares/auth.middleware"
 import { errorMidleware } from "./middlewares/error.middleware"
 
-console.log("JWT_SECRET", process.env.JWT_SECRET);
-
 const app = express()
 
 app.use(cors())
